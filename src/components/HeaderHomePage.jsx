@@ -1,7 +1,9 @@
 import React from "react";
 import HomePageSvg from "./HomePageSvg";
+import useIsMobileDevice from "../hooks/useIsMobileDevice";
 
 function HeaderHomePage() {
+  const isMobile = useIsMobileDevice();
   return (
     <div className="  p-4 justify-between md:flex gap-10 ">
       <div className="flex flex-col mt-[15%] ml-10 gap-2">
@@ -20,13 +22,11 @@ function HeaderHomePage() {
           journey and give you the keys to unlock a highly personalized
           experience for connected travelers.
         </div>
-        <div className="bg-[#cc3262] w-[30%] text-white rounded-tl-[80px] rounded-bl-[80px] rounded-br-[80px] py-5 px-[33px]">
+        <div className="bg-[#cc3262] md:w-[30%] text-white rounded-tl-[80px] rounded-bl-[80px] rounded-br-[80px] py-5 px-[33px]">
           Transform your CX
         </div>
       </div>
-      <div>
-        <HomePageSvg />
-      </div>
+      <div>{isMobile ? <></> : <HomePageSvg />}</div>
     </div>
   );
 }

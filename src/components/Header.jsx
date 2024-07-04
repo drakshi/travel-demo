@@ -32,9 +32,10 @@ function Header() {
           </a>
         </div>
         <div className="md:flex items-end gap-3 justify-between">
-          {headerMenu.map((header) => (
-            <div className="px-4 py-5 ">{header}</div>
-          ))}
+          {!isMobile &&
+            headerMenu.map((header) => (
+              <div className="px-4 py-5 ">{header}</div>
+            ))}
         </div>
       </div>
     </div>
