@@ -16,19 +16,9 @@ function Header() {
       <div className="md:flex p-3 justify-between items-center">
         <div>
           <a href="https://thenest.concentrix.com" class="nest-logo">
-            {isMobile ? (
-              <img
-                src="https://thenest.concentrix.com/wp-content/themes/thenest/img/thenest-by-concentrix.svg"
-                className="h-14 w-auto"
-                alt="The Nest by Concentrix"
-              ></img>
-            ) : (
-              <img
-                src="https://thenest.concentrix.com/wp-content/themes/thenest/img/thenest-by-concentrix.svg"
-                className="h-14 w-auto"
-                alt="The Nest by Concentrix"
-              />
-            )}
+            <div className="text-2xl text-[#351E1A] font-bold">
+              Travel Province Solutions
+            </div>
           </a>
         </div>
         <div className="md:flex items-end gap-3 justify-between">

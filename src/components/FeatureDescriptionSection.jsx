@@ -31,13 +31,13 @@ function FeatureDescriptionSection() {
         } justify-between items-center`}
       >
         <div className="flex flex-col gap-4 md:w-3/5">
-          <div className="text-[32px] font-bold text-[#003d5b]">
+          <div className="text-[32px] font-bold text-[#351E1A]">
             {feat.heading}
           </div>
-          <div className="text-[22px] font-semibold text-[#003d5b]">
+          <div className="text-[22px] font-semibold text-[#351E1A]">
             {feat.subheading}
           </div>
-          <div className="text-[22px] text-[#003d5b]">{feat.content}</div>
+          <div className="text-[22px] text-[#351E1A]">{feat.content}</div>
         </div>
         <div>
           <img

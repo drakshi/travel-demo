@@ -8,12 +8,12 @@ function HeaderHomePage() {
     <div className="  p-4 justify-between md:flex gap-10 ">
       <div className="flex flex-col mt-[15%] ml-10 gap-2">
         <h1
-          className="text-[#003d5b] font-bold text-[55px] "
+          className="text-[#351E1A] font-bold text-[55px] "
           style={{ fontFamily: "sans-serif" }}
         >
           Travel & Hospitality
         </h1>
-        <div className="text-[#003d5b] text-[22px]">
+        <div className="text-[#351E1A] text-[22px]">
           Create unforgettable experiences. Anywhere on the globe.
         </div>
         <div className=" text-[18px] font-light">
@@ -22,7 +22,7 @@ function HeaderHomePage() {
           journey and give you the keys to unlock a highly personalized
           experience for connected travelers.
         </div>
-        <div className="bg-[#cc3262] md:w-[30%] text-white rounded-tl-[80px] rounded-bl-[80px] rounded-br-[80px] py-5 px-[33px]">
+        <div className="bg-[#643F38] md:w-[30%] text-white rounded-tl-[80px] rounded-bl-[80px] rounded-br-[80px] py-5 px-[33px]">
           Transform your CX
         </div>
       </div>
